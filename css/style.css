@@ -1,0 +1,138 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* Banner */
+@import url('components/banner.css');
+
+/* container */
+@import url('components/container.css');
+
+/* card */
+@import url('components/card.css');
+
+/* footer */
+@import url('components/footer.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  margin: 0px;
+}
+
+/* MEDIA responsive code */
+
+
+@media (max-width: 1250px) {
+  .my-container {
+    width: 70%;
+  }
+
+  .card {
+    width: 140px;
+    height: 150px;
+  }
+
+  .card p,
+  .card h3 {
+    font-size: 12px;
+  }
+
+  .pic-svg {
+    height: 70px;
+  }
+
+  .box {
+    width: 65%;
+    padding: 25px 0px;
+  }
+
+  .footer {
+    height: 150px;
+  }
+
+  .btn {
+    padding: 10px 15px;
+    font-size: 5px;
+  }
+
+  .banner {
+    height: 280px;
+    padding : 90px 5px;
+  }
+
+  .banner h1 {
+    padding-top: 60px;
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 440px) {
+  .my-container {
+    width: 90%;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+  .card {
+    width: 50px;
+    height: 80px;
+  }
+
+  .card p,
+  .card h3 {
+    font-size: 7px;
+  }
+
+  .pic-svg {
+    height: 25px;
+  }
+
+  .box {
+    width: 90%;
+    padding: 25px 0px;
+  }
+
+  .footer {
+    height: 150px;
+  }
+
+  .btn {
+    padding: 6px 10px;
+    font-size: 5px;
+  }
+
+  .banner {
+    height: 250px;
+    padding : 40px 5px;
+  }
+
+  .banner h1 {
+    font-size: 17px;
+  }
+
+  .banner p {
+    font-size: 10px;
+  }
+
+  body {
+    font-size: 10px;
+  }
+}

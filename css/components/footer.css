@@ -1,0 +1,33 @@
+/* === Footer === */
+
+.footer {
+  margin-top: 3%;
+  background-color: #2c2b2b;
+  height: 250px;
+  text-align: center;
+}
+
+.footer p {
+  color: grey;
+  font-weight: lighter;
+}
+
+.icon {
+  color: #1EDD88;
+  margin: 5px;
+}
+
+.footer ul {
+  padding: 0px;
+}
+
+.coeur {
+  color:red;
+}
+
+.box {
+  width: 30%;
+  margin: 0 auto;
+  display: block;
+  padding: 60px;
+}

@@ -1,0 +1,12 @@
+/* === Container === */
+
+.my-container{
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.my-container h2 {
+  font-weight: bolder;
+  text-align: center;
+}
